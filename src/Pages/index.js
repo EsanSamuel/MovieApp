@@ -1,0 +1,7 @@
+export { default as Home } from './Home'
+export { default as TvShow } from './TvShow'
+export { default as TopRatedMovie } from './TopRatedMovie'
+export { default as TopRatedSeries } from './TopRatedSeries'
+export { default as Details } from './Details'
+export { default as SignUp } from './SignUp'
+export { default as SearchPage } from './SearchPage'
