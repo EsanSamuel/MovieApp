@@ -19,7 +19,7 @@ const Navbar = () => {
     return (
         <div className='w-full p-5 text-white flex gap-2'>
             <div className='w-full flex gap-2'>
-                <input className='w-full bg-[#1b1c1e] h-[40px] rounded text-white px-5 overview-[blue]' placeholder='Search any movie,tv show etc' />
+                <input className='w-full bg-[#1b1c1e] h-[40px] rounded text-white px-5 overview-[blue]' placeholder='Search any movie, tv show etc' />
                 {!nav && (<CiMenuFries className='text-[30px] mt-2 sm:hidden ' onClick={() => setNav(true)} />)}
                 {nav && (<AiOutlineClose className='text-[30px]  mt-2 sm:hidden' onClick={() => setNav(false)} />)}
             </div>
