@@ -19,7 +19,7 @@ const MovieCard = ({ id, poster_path, title, overview, release_date, vote_averag
 
 
             {showDetails && (
-                <div className=' z-10  bg-[#1b1c1e]  w-full fixed h-full sm:p-10 top-[0] left-[0] overflow'>
+                <div className=' z-10  bg-[#1b1c1e]  w-full fixed h-full sm:p-10 top-[0] left-[0] overflow-auto'>
                     <AiOutlineClose className='text-white float-right absolute sm:hidden text-[30px] mt-5 ml-5' onClick={() => setShowDetails(false)} />
                     <AiOutlineClose className='text-white float-right sm:flex hidden text-[30px] mt-5 ml-5' onClick={() => setShowDetails(false)} />
                     <div className='flex justify-between'>
