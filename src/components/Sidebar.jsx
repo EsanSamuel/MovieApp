@@ -17,7 +17,7 @@ const Sidebar = () => {
         setChangeText(!changeText)
     }
     return (
-        <div className='text-white p-10 '>
+        <div className='text-white p-10 overflow-auto '>
             <div className='fixed'>
                 <h1 className='text-[20px] flex gap-1 '><BiCameraMovie className='text-[25px]' />Movie<span className="text-[#f8242e]">Time</span></h1>
 
